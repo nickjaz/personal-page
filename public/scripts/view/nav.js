@@ -6,15 +6,29 @@ var app = app || {};
   var pageView = {};
 
   pageView.home = () => {
-    // home jquery goes here
+    $('.nav-content').hide();
+    $('.home').show();
   };
 
   pageView.resume = () => {
-    // resume jquery goes here
+    $('.nav-content').hide();
+    $('.resume').show();
   };
 
   pageView.portfolio = () => {
-    // portfolio jquery goes here
+    $('.nav-content').hide();
+    $('.portfolio').show();
   };
-  
+
+  pageView.about = () => {
+    $('.nav-content').hide();
+    $('.about').show();
+  };
+
+  pageView.contact = () => {
+    $('.nav-content').hide();
+    $('.contact').show();
+  };
+
+  module.pageView = pageView;
 }(app));

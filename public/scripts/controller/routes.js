@@ -3,6 +3,7 @@
 var app = app || {};
 
 page('/', app.pageView.home);
+page('/home', app.pageView.home);
 page('/resume', app.pageView.resume);
 page('/portfolio', app.pageView.portfolio);
 page('/about', app.pageView.about);
