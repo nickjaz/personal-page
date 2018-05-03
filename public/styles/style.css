@@ -1,1 +1,159 @@
+/* base */
 
+* {
+  font-family: helvetica;
+  font-size: 3vw;
+  border: dashed 1px orange;
+}
+
+a {
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+h3 {
+  font-size: 4vw;
+}
+
+/* header */
+
+header {
+  height: 12vw;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  left: 2vw;
+  top: 3vw;
+  font-size: 4vw;
+}
+
+header .nav-icon {
+  position: absolute;
+  right: 2vw;
+  top: 3vw;
+}
+
+/* main */
+
+section {
+  text-align: center;
+}
+
+.rectangle {
+  margin: 4vw auto;
+  width: 75%;
+  height: 65vw;
+  background: black;
+}
+
+.rectangle h3 {
+  margin: 0 auto;
+  color: white;
+}
+
+.rectangle p {
+  margin: 0vw auto;
+  color: white;
+}
+
+.false-button {
+  display: inline-block;
+  margin-bottom: 6vw;
+  border-radius: 2px;
+  padding: 2vw;
+  background-color: #808080;
+  color: white;
+  font-size: 4vw;
+}
+
+/* nav */
+
+.main-nav {
+  position: fixed;
+  left: -100%;
+  margin-top: 12vw;
+  display: block;
+  text-align: center;
+  background-color: black;
+  z-index: 9999999999999999999;
+  width: 100%;
+  height: 200vw;
+  transition: .5s all;
+}
+
+.main-nav.active {
+  position: fixed;
+  left: -100%;
+  margin-top: 12vw;
+  display: block;
+  text-align: center;
+  background-color: black;
+  z-index: 9999999999999999999;
+  width: 100%;
+  height: 200vw;
+  transform: translateX(100%);
+  transition: .5s all;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-nav ul li {
+  margin: 3vw 0 3vw 0;
+}
+
+.main-nav ul li a {
+  font-size: 8vw;
+  color: white;
+}
+
+/* home */
+
+.home {
+  position: relative;
+}
+
+.home img {
+  width: 100%;
+}
+
+.home h1 {
+  position: absolute;
+  top: 30vw;
+  left: 10VW;
+  font-size: 8vw;
+  color: white;
+  width: 80%;
+}
+
+.home .quick-portfolio {
+  background-color: #E8E8E8;
+}
+
+.home .quick-about p {
+  margin: 4vw auto;
+  width: 75%;
+  font-size: 4vw;
+}
+
+.home .quick-contact {
+  background-color: #E8E8E8;
+}
+
+/* footer */
+
+footer {
+  height: 20vw;
+  background-color: black;
+}
+
+footer h2 {
+  color: white;
+}
