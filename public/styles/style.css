@@ -1,7 +1,7 @@
 /* base */
 
 * {
-  font-family: helvetica;
+  font-family: 'Comfortaa', cursive;
   font-size: 3vw;
   border: dashed 1px orange;
 }
@@ -13,6 +13,8 @@ a {
 
 h2 {
   font-size: 6vw;
+  font-family: 'Cabin', sans-serif;
+  padding: 6vw 0 2vw 0;
 }
 
 h3 {
@@ -30,13 +32,15 @@ header h1 {
   position: absolute;
   left: 2vw;
   top: 3vw;
-  font-size: 4vw;
+  font-size: 6vw;
+  font-family: 'Abril Fatface', cursive;
 }
 
 header .nav-icon {
   position: absolute;
   right: 2vw;
-  top: 3vw;
+  top: 2vw;
+  font-size: 8vw;
 }
 
 /* main */
@@ -45,20 +49,25 @@ section {
   text-align: center;
 }
 
-.rectangle {
+.square {
   margin: 4vw auto;
   width: 75%;
   height: 65vw;
   background: black;
+  box-sizing: border-box;
 }
 
-.rectangle h3 {
-  margin: 0 auto;
+.inner-square {
+  text-align: center;
+  padding-top: 26vw;
+}
+
+.inner-square h3 {
   color: white;
 }
 
-.rectangle p {
-  margin: 0vw auto;
+.inner-square p {
+  margin-top: 2vw;
   color: white;
 }
 
@@ -70,6 +79,7 @@ section {
   background-color: #808080;
   color: white;
   font-size: 4vw;
+  font-family: 'Cabin', sans-serif;
 }
 
 /* nav */
@@ -106,10 +116,11 @@ section {
 }
 
 .main-nav ul li {
-  margin: 3vw 0 3vw 0;
+  margin: 3vw 0;
 }
 
 .main-nav ul li a {
+  font-family: 'Comfortaa', cursive;
   font-size: 8vw;
   color: white;
 }
