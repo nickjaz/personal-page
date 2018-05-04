@@ -3,11 +3,10 @@
 * {
   font-family: 'Comfortaa', cursive;
   font-size: 3vw;
-  border: dashed 1px orange;
 }
 
 a {
-  font-family: helvetica;
+  font-family: 'Cabin', sans-serif;
   text-decoration: none;
 }
 
@@ -53,7 +52,6 @@ section {
   margin: 4vw auto;
   width: 75%;
   height: 65vw;
-  background: black;
   box-sizing: border-box;
 }
 
@@ -125,6 +123,15 @@ section {
   color: white;
 }
 
+.icon-cross {
+  display: none;
+}
+
+.icon-cross.active {
+  display: inline;
+  font-size: 7vw;
+}
+
 /* home */
 
 .home {
@@ -156,6 +163,18 @@ section {
 
 .home .quick-contact {
   background-color: #E8E8E8;
+}
+
+.computer {
+  background-image: url('../assets/computer.jpg');
+}
+
+.food {
+
+}
+
+.guitar {
+
 }
 
 /* footer */
