@@ -56,8 +56,10 @@ section {
 }
 
 .inner-square {
+  height: 39vw;
   text-align: center;
   padding-top: 26vw;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .inner-square h3 {
@@ -166,15 +168,24 @@ section {
 }
 
 .computer {
-  background-image: url('../assets/computer.jpg');
+  background: url('../assets/computer.jpg') #666 no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
 }
 
 .food {
-
+  background: url('../assets/food.jpg') #666 no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
 }
 
 .guitar {
-
+  background: url('../assets/guitar-blue.jpg') #666 no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: cover;
 }
 
 /* footer */
